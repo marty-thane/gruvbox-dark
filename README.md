@@ -18,8 +18,7 @@ solution for a cohesive dark theme experience:
 2. Move the contents to your local themes directory:
 
    ```bash
-   cd gruvbox-dark
-   cp -t ~/.local/share/ themes/ icons/
+   cp -r -t ~/.local/share/ gruvbox-dark/themes/ gruvbox-dark/icons/
    ```
 
 3. Use a tool like `lxappearance` to select the Gruvbox Dark theme and apply it.
